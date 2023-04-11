@@ -42,5 +42,15 @@ function additem(){
     list.innerHTML = "<ol> <li>List item 4</li> </ol>"
 }
 */
-// / Question 05:
-
+// Question 05:changes the background color of an HTML element.
+/*
+function changeBackgroudColor(word,val){
+let  chg = document.getElementById("my-second-para");
+ chg.innerHTML = "<b>"+word+"</b>";
+ chg.style.backgroundColor = val;
+};
+changeBackgroudColor("My Name is Ilyas","#FFFF00");
+ //chg.style.color = "#ff0000";
+// FFF00
+*/
+// Qu
