@@ -1,5 +1,5 @@
 // Question 01: Closure.
-/*
+///*
 function addNum (addNumber){
     return function(val){
         console.log(val + addNumber);
@@ -7,9 +7,9 @@ function addNum (addNumber){
 }
  let result = addNum(5);
  result(8);
- */
+// */
 // Question 02: Recursive Function.
-/*
+///*
  let a = [1,2,3,4,5,6,7,8,9];
  
  function searching(arr,val){
@@ -23,9 +23,9 @@ function addNum (addNumber){
     }
  };
 console.log(searching(a, 8)); 
-*/
+//*/
 // Question 03: Add  New Paragraph Element.
-/*
+///*
 let Paragraph = [];
 let  para = document.getElementById("my-para");
 function paraAdd(arg){
@@ -34,24 +34,24 @@ function paraAdd(arg){
  para.innerHTML = "<p><b> " + arg +"</b></p>"
  // Paragraph.shift();
 }
-*/
+//*/
 // Question 04: Function That Adds a New Paragraph Element.
-/*
+///*
 let list =document.getElementById("my-list");
 function additem(){
     list.innerHTML = "<ol> <li>List item 4</li> </ol>"
 }
-*/
+//*/
 // Question 05: changes The background color of an HTML element.
-/*
+///*
 function changeBackgroudColor(ide,val){
 let  chg = document.getElementById(ide);
  chg.style.backgroundColor = val;
 };
 changeBackgroudColor("p2","#FFFF00");
- */
+ //*/
 // Question 06: Function That Saves an Object To  Local  Storage.
-/*
+///*
 let stdInfo1 = {
     name: "ILYAS",
     rollNo: 1234,
@@ -64,9 +64,9 @@ function stor(nameSave,obj){
   localStorage.setItem(nameSave, stringify); // Save it to LocalStorage
 }
 stor("2023 student Data ", stdInfo1);
-*/
+//*/
 // Question 07: A Function That Retrieves An Object From Local  Storage.
-/* 
+///* 
 let stdInfo3 = {
     name: "usman",
     rollNo: 1,
@@ -94,7 +94,7 @@ function getobjt(NameSave){
 };
   getobjt("data1");
   getobjt("data2");
-  */
+ // */
 // Question 08:
 
 let stdInfo04 = {
